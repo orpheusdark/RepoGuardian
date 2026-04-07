@@ -1,8 +1,8 @@
 ---
-name: "pr-review"
-description: "Analyze diffs with strict senior-engineer discipline, focusing only on changed code and real regression risks."
-allowed-tools:
-  - "Read"
+name: pr-review
+description: Analyze diffs with strict senior-engineer discipline, focusing only on changed code and real regression risks.
+license: MIT
+allowed-tools: Read
 ---
 
 # Skill: Pull Request Review

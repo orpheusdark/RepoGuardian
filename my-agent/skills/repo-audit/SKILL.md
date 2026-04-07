@@ -1,8 +1,8 @@
 ---
-name: "repo-audit"
-description: "Analyze an entire repository, detect structural/logical/security issues, and produce deterministic scored findings with fix priorities."
-allowed-tools:
-  - "Read"
+name: repo-audit
+description: Analyze an entire repository, detect structural/logical/security issues, and produce deterministic scored findings with fix priorities.
+license: MIT
+allowed-tools: Read
 ---
 
 # Skill: Repository Audit

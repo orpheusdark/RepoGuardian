@@ -1,8 +1,8 @@
 ---
-name: "scoring-engine"
-description: "Compute deterministic repository quality score and category breakdown from issue severities."
-allowed-tools:
-  - "Read"
+name: scoring-engine
+description: Compute deterministic repository quality score and category breakdown from issue severities.
+license: MIT
+allowed-tools: Read
 ---
 
 # Skill: Scoring Engine

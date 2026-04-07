@@ -1,13 +1,12 @@
 spec_version: "0.1.0"
 name: "repoguardian-agent"
+version: "1.0.0"
 description: "Autonomous repository auditor with scoring and fix planning"
-soul: "./SOUL.md"
-rules: "./RULES.md"
 skills:
-  - "./skills/repo-audit/SKILL.md"
-  - "./skills/pr-review/SKILL.md"
-  - "./skills/auto-fix/SKILL.md"
-  - "./skills/scoring-engine/SKILL.md"
+  - repo-audit
+  - pr-review
+  - auto-fix
+  - scoring-engine
 tags:
   - "hackathon"
   - "code-quality"

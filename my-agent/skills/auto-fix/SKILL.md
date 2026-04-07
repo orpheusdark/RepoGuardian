@@ -1,9 +1,8 @@
 ---
-name: "auto-fix"
-description: "Apply safe, deterministic code improvements automatically without altering business logic."
-allowed-tools:
-  - "Read"
-  - "Write"
+name: auto-fix
+description: Apply safe, deterministic code improvements automatically without altering business logic.
+license: MIT
+allowed-tools: Read Write
 ---
 
 # Skill: Auto Fix
