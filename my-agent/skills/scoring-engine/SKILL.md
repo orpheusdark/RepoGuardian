@@ -36,12 +36,12 @@ Compute category-level penalties and remaining score impact for:
 If an issue spans categories, assign to the primary root-cause category only.
 
 ## Execution Steps
-1. Ingest issue list with severity and category labels.
-2. Validate labels are one of LOW/MEDIUM/HIGH/CRITICAL.
-3. Apply deterministic penalty math.
-4. Compute final score and per-category breakdown.
-5. Produce a ranked fix queue using severity then category risk.
-6. Return output in strict structured form.
+Step 1: Ingest issue list with severity and category labels.
+Step 2: Validate labels are one of LOW/MEDIUM/HIGH/CRITICAL.
+Step 3: Apply deterministic penalty math.
+Step 4: Compute final score and per-category breakdown.
+Step 5: Produce a ranked fix queue using severity then category risk.
+Step 6: Return output in strict structured form.
 
 ## Output Contract
 ### Final Score

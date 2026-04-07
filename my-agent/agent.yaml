@@ -1,7 +1,7 @@
 spec_version: "0.1.0"
 name: "repoguardian-agent"
 version: "1.0.0"
-description: "Autonomous repository auditor with scoring and fix planning"
+description: "Deterministic repository auditor with scoring, prioritized fix planning, and safe patch generation"
 skills:
   - repo-audit
   - pr-review

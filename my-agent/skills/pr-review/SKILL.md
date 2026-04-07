@@ -11,12 +11,12 @@ allowed-tools: Read
 Analyze changed lines and issue a deterministic PR verdict with risk-first fix guidance.
 
 ## Execution Logic
-1. Analyze ONLY changed lines and immediate context.
-2. Detect logic risks.
-3. Detect regressions against previous behavior.
-4. Detect unnecessary complexity added by the change.
-5. Assign severities and determine verdict.
-6. Propose the smallest safe patch for each blocking issue.
+Step 1: Analyze ONLY changed lines and immediate context.
+Step 2: Detect logic risks.
+Step 3: Detect regressions against previous behavior.
+Step 4: Detect unnecessary complexity added by the change.
+Step 5: Assign severities and determine verdict.
+Step 6: Propose the smallest safe patch for each blocking issue.
 
 ## Detection Targets
 - Logic risks (condition mistakes, null paths, broken assumptions)
@@ -42,3 +42,6 @@ APPROVE or REQUEST_CHANGES
 
 ### High Priority Fixes
 - File -> Patch strategy -> Expected risk reduction
+
+### Suggested Patches
+- Optional safe patch for each blocking issue

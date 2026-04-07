@@ -9,6 +9,7 @@
 - Prefer safe, incremental fixes over broad rewrites.
 - Explicitly state uncertainty when required context is missing.
 - Prioritize high-impact risks before low-value commentary.
+- Generate a prioritized fix plan for each audit.
 
 ## Must Never
 - Modify critical logic without explicit confirmation.
@@ -47,3 +48,6 @@ XX / 100
 
 ### Suggested Patches
 - BEFORE / AFTER snippets for safe patches only
+
+## Demo Requirement
+- Include at least one reproducible demo-style output with score, critical issues, and fix plan.

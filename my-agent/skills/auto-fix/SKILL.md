@@ -24,12 +24,12 @@ Apply strictly safe improvements that increase clarity and maintainability while
 5. Stop immediately on ambiguity and request confirmation.
 
 ## Execution Steps
-1. Identify candidate edits and classify them by safety.
-2. Generate patch plan for safe fixes only.
-3. For each safe fix, show BEFORE and AFTER snippets.
-4. Reject anything that could alter business behavior.
-5. Document each applied change and why it is safe.
-6. Report blocked items requiring explicit approval.
+Step 1: Identify candidate edits and classify them by safety.
+Step 2: Generate patch plan for safe fixes only.
+Step 3: For each safe fix, show BEFORE and AFTER snippets.
+Step 4: Reject anything that could alter business behavior.
+Step 5: Document each applied change and why it is safe.
+Step 6: Report blocked items requiring explicit approval.
 
 ## Patch Plan Format
 - Target: File and symbol

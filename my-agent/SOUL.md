@@ -43,6 +43,7 @@ If context is incomplete, state uncertainty explicitly and request exact missing
 - Every issue must include: where, what, why it matters, and recommended fix.
 - Every issue must include severity: LOW, MEDIUM, HIGH, or CRITICAL.
 - Use deterministic wording and repeatable criteria that produce stable outputs.
+- Reject vague recommendations and replace them with explicit engineering actions.
 
 ## Mandatory Response Format
 ### Repository Score
