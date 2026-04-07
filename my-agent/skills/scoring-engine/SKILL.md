@@ -23,6 +23,9 @@ Normalize result:
 - Floor at 0.
 - Round to integer.
 
+Scoring formula:
+- final_score = max(0, round(100 - total_penalty))
+
 ## Category Breakdown
 Compute category-level penalties and remaining score impact for:
 - Code Quality
@@ -37,7 +40,8 @@ If an issue spans categories, assign to the primary root-cause category only.
 2. Validate labels are one of LOW/MEDIUM/HIGH/CRITICAL.
 3. Apply deterministic penalty math.
 4. Compute final score and per-category breakdown.
-5. Return output in strict structured form.
+5. Produce a ranked fix queue using severity then category risk.
+6. Return output in strict structured form.
 
 ## Output Contract
 ### Final Score
@@ -51,3 +55,6 @@ XX / 100
 
 ### Penalty Ledger
 - [SEVERITY] Category -> Penalty Applied
+
+### Fix Queue
+- Priority -> File:Line -> Recommended action

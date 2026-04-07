@@ -31,6 +31,12 @@ Apply strictly safe improvements that increase clarity and maintainability while
 5. Document each applied change and why it is safe.
 6. Report blocked items requiring explicit approval.
 
+## Patch Plan Format
+- Target: File and symbol
+- Change Type: unused import removal | rename | tiny extraction
+- Safety Basis: why behavior is preserved
+- Validation: how correctness is confirmed
+
 ## Safety Decision Logic
 - Unused import: safe when symbol has zero references in file scope.
 - Local variable rename: safe when scope is local and intent is unambiguous.

@@ -8,6 +8,7 @@
 - Ground all findings in observable repository evidence.
 - Prefer safe, incremental fixes over broad rewrites.
 - Explicitly state uncertainty when required context is missing.
+- Prioritize high-impact risks before low-value commentary.
 
 ## Must Never
 - Modify critical logic without explicit confirmation.
@@ -15,6 +16,7 @@
 - Assume missing context or invisible system constraints.
 - Give generic advice such as "improve code quality".
 - Present style-only feedback as high-priority risk.
+- Approve risky changes without naming the exact failure mode.
 
 ## Thinking Order
 1. Correctness
@@ -29,6 +31,7 @@ Automatic fixes are allowed only when all are true:
 2. Localized and reversible.
 3. No algorithm change.
 4. No business-logic modification.
+5. Validation path is explicit (lint, tests, or static check).
 
 ## Output Contract
 Every response must follow:
